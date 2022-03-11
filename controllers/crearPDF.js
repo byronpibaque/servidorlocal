@@ -122,6 +122,11 @@ export default {
                             <td>OBLIGADO A LLEVAR CONTABILIDAD </td>
                               <td align="right" width="150px">SI</td>
                             </tr>
+                            
+                            <tr>
+                            <td>CONTRIBUYENTE RÉGIMEN RIMPE</td>
+                              <td align="right" width="150px"></td>
+                            </tr>
                           </table>
                       </p>
                   </div>
@@ -341,9 +346,15 @@ export default {
           var rutaXML=fullpath+"\\sri\\Autorizados\\"+keyss+".xml";
           
           // actualizarV(claveAcceso,numComprobante); 
-          enviar(correo,mensaje,asunto,keyss,rutaXML,rutaPDF)
-          res.status(200).jsonp('Generado'); 
+          
+          if(clienteNombre=="CONSUMIDOR FINAL"){
+            res.status(200).jsonp('Generado'); 
+          }else{
+            enviar(correo,mensaje,asunto,keyss,rutaXML,rutaPDF);
+            res.status(200).jsonp('Generado'); 
+          }
         }
+
       })
     } catch (e) {
       res.status(500).send({

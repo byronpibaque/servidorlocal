@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ingreso id="comprobante" version="1.0.0">
+  <encabezado>
+    <farmacia>TU AHORRO #4</farmacia>
+    <usuario>JOEL PRIETO MORALES</usuario>
+    <descripcion>ingreso por venta</descripcion>
+    <numComprobante>007</numComprobante>
+    <total>4.08</total>
+  </encabezado>
+  <detalles>
+    <detalle>
+      <_id>60424628a8f68b0015565359</_id>
+      <producto>NEOGASOL  GOTAS 20ML </producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>4.08</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+  </detalles>
+</ingreso>

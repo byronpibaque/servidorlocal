@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ingreso id="comprobante" version="1.0.0">
+  <encabezado>
+    <farmacia>TU AHORRO #4</farmacia>
+    <usuario>Sandra Iglesias</usuario>
+    <descripcion>STOCK</descripcion>
+    <numComprobante>3139</numComprobante>
+    <total>519.7576</total>
+  </encabezado>
+  <detalles>
+    <detalle>
+      <_id>61bd332f84c11900169e4b81</_id>
+      <producto>PAÑAL PANOLINI COMF XG X100</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>17.51</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>61bd346684c11900169e4b83</_id>
+      <producto>SIMILAC HMO 3 X 850 GR</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>21.57</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>61bd3dda84c11900169e4b93</_id>
+      <producto>GLUCERNA 850G GRATIS 2 BOTELLA DE FRESA 220ML</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>34.26</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>61bd395784c11900169e4b8c</_id>
+      <producto>GLUCERNA 400G VAINILLA GRATIS 1 BOTELLA DE FRESA 220ML</producto>
+      <cantidad>3</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>18.22</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>61bd350f84c11900169e4b86</_id>
+      <producto>SIMILAC HMO 3 X 400 GR</producto>
+      <cantidad>5</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>11.2</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b00155652a0</_id>
+      <producto>TRAMADOL 100MG/ML</producto>
+      <cantidad>4</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>1.5</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>6094758a018dc8001561271e</_id>
+      <producto>SIMILAC HMO 2 400GR</producto>
+      <cantidad>5</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>17.03</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b00155651d5</_id>
+      <producto>ENSURE ADVANCE VAINILLA LIQ PACK X 4 X 200ML</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>4</fracciones>
+      <costoNeto>11.18</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424629a8f68b0015565767</_id>
+      <producto>PEDIADURE BEBIBLE 250 ML</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>4</fracciones>
+      <costoNeto>10</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>604823d266d4ac0015e60c25</_id>
+      <producto>PAÑITOS HUMEDOS POMPIS X50         </producto>
+      <cantidad>5</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>0.66</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b001556556b</_id>
+      <producto>PAÑITOS POMPIS ORIG DOYPACKX100</producto>
+      <cantidad>5</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>1.22</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60947602018dc80015612720</_id>
+      <producto>SIMILAC 1 HMO 850GR</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>38.21</costoNeto>
+      <fraccionesTotales>1</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60947655018dc80015612722</_id>
+      <producto>SIMILAC 2 HMO 850GR</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>34.66</costoNeto>
+      <fraccionesTotales>1</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b00155654eb</_id>
+      <producto>LECHE SIMILAC HMO 1/400</producto>
+      <cantidad>5</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>16.29</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b0015565508</_id>
+      <producto>LECHE NIDO DESLACTOSADA +1 X400G</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>7.2</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>613395e5f5eea20016df2888</_id>
+      <producto>PRUDENTIAL PROTECTOR DE CAMA POR 10 U.</producto>
+      <cantidad>2</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>3.63</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b0015565692</_id>
+      <producto>PAÑAL PANOLINI COMFORT (XG) X 36</producto>
+      <cantidad>1</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>5.26</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>6044fe84b287bd00153a21f3</_id>
+      <producto>PAÑAL PANOLINI CONFORT SEC XG X18</producto>
+      <cantidad>4</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>3.1</costoNeto>
+      <fraccionesTotales>0</fraccionesTotales>
+    </detalle>
+    <detalle>
+      <_id>60424628a8f68b001556568d</_id>
+      <producto>PAÑAL PANOLINI DELICARE SX 22</producto>
+      <cantidad>4</cantidad>
+      <fraccionesN>0</fraccionesN>
+      <fracciones>1</fracciones>
+      <costoNeto>2.72</costoNeto>
+      <fraccionesTotales>2</fraccionesTotales>
+    </detalle>
+  </detalles>
+</ingreso>
