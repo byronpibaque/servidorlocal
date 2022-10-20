@@ -11,11 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
     "@peculiar/webcrypto": "^1.1.1",
-    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
@@ -45,7 +41,6 @@
     "xmldom": "^0.3.0"
   },
   "devDependencies": {
-    "babel-plugin-transform-class-properties": "^6.24.1",
     "esm": "^3.2.25",
     "nodemo": "^1.0.0",
     "nodemon": "^2.0.4"

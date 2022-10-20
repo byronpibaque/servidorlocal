@@ -33,7 +33,7 @@ async function disminuirStock(idarticulo, cantidad, fracciones) {//PARA GENERAR 
 
     let { fraccionesTotales, fraccionCaja } = await models.Producto.findOne({ _id: idarticulo });
    
-        let nfracionesTotal = parseInt(fraccionesTotales) -
+        let nfracionesTotal = parseInt(fraccionesTotales)-
         (((parseInt(fraccionCaja) * parseInt(cantidad)) + parseInt(fracciones)))
        
 
@@ -190,7 +190,7 @@ export default {
             next(e);
         }
     },
-    update: async (req,res,next) => {
+       update: async (req,res,next) => {
         try {
             const reg = await models.Venta.updateOne({$and:[{numComprobante:req.query.numComprobante},{codigoFarmacia:req.query.codigoFarmacia}]},
                 {claveAcceso:req.query.clave});

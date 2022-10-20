@@ -1,4 +1,4 @@
-
+﻿
 import moment from 'moment'
 
 
@@ -133,7 +133,6 @@ export default {
                     ptoEmi: null,
                     secuencial: null,
                     dirMatriz: null,
-                    contribuyenteRimpe:null,
                 },
                 infoFactura: {
                     fechaEmision: null,
@@ -192,7 +191,6 @@ export default {
         estructuraFactura[tipoComprobante].infoTributaria.ptoEmi = pad(req.body.infoTributaria.ptoEmi, 3);
         estructuraFactura[tipoComprobante].infoTributaria.secuencial = req.body.infoTributaria.secuencial;
         estructuraFactura[tipoComprobante].infoTributaria.dirMatriz = req.body.infoTributaria.dirMatriz;
-        estructuraFactura[tipoComprobante].infoTributaria.contribuyenteRimpe = "CONTRIBUYENTE RÉGIMEN RIMPE";
         //      INFORMACION DE FACTURA
         estructuraFactura[tipoComprobante].infoFactura.fechaEmision = moment().format('DD/MM/YYYY');
         estructuraFactura[tipoComprobante].infoFactura.dirEstablecimiento = req.body.infoFactura.dirEstablecimiento;
@@ -318,7 +316,6 @@ export default {
                     ptoEmi: null,
                     secuencial: null,
                     dirMatriz: null,
-                    contribuyenteRimpe:null,
                 },
                 infoFactura: {
                     fechaEmision: null,
@@ -377,7 +374,6 @@ export default {
         estructuraFactura[tipoComprobante].infoTributaria.ptoEmi = pad(req.body.infoTributaria.ptoEmi, 3);
         estructuraFactura[tipoComprobante].infoTributaria.secuencial = req.body.infoTributaria.secuencial;
         estructuraFactura[tipoComprobante].infoTributaria.dirMatriz = req.body.infoTributaria.dirMatriz;
-        estructuraFactura[tipoComprobante].infoTributaria.contribuyenteRimpe = "CONTRIBUYENTE RÉGIMEN RIMPE";
         //      INFORMACION DE FACTURA
         estructuraFactura[tipoComprobante].infoFactura.fechaEmision = moment().format('DD/MM/YYYY');
         estructuraFactura[tipoComprobante].infoFactura.dirEstablecimiento = req.body.infoFactura.dirEstablecimiento;
